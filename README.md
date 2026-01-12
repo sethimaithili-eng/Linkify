@@ -92,3 +92,21 @@ The API is deployed on **Render** and can be accessed at:
 ```text
 https://linkify-api.onrender.com
 ```
+## Testing the API
+You can use **Postman** or **cURL** to test the endpoints.
+
+### **Example cURL for POST request**
+```bash
+curl -X POST "https://linkify-api.onrender.com/identify" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "name": "Rahul Verma",
+    "email": "rahul.verma@gmail.com",
+    "phone": "+919812345678"
+  }'
+```
+## License
+This project is open-source
+
+---
+🚀 **Developed with ❤️ by Maithili Sethi**
