@@ -15,6 +15,4 @@ This backend API is developed using Node.js and Express.js, with MongoDB as the 
 - MongoDB Atlas or a local MongoDB instance
 # Installation
 1.Clone the repository
-bash
 git clone https://github.com/sethimaithili-eng/Linkify.git
-cd Linkify
