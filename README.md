@@ -43,3 +43,33 @@ POST /identify
 ```
 **Description:**
 - Accepts an email and/or phone number to create or merge contacts.
+
+**Request Body:**
+```json
+{
+  "name": "Rahul Verma",
+  "email": "rahul.verma@gmail.com",
+  "phone": "+919812345678"
+}
+```
+**Response:**
+```json
+{
+  "_id": "65c91a8e42d1bc0098fa1234",
+  "name": ["Rahul Verma"],
+  "emails": ["rahul.verma@gmail.com"],
+  "phoneNumbers": ["+919812345678"],
+  "secondaryContactIds": [],
+  "updatedAt": "2025-04-01T08:15:30.000Z",
+  "createdAt": "2025-04-01T08:15:30.000Z",
+  "__v": 0
+}
+```
+### **2. Get All Contacts (GET /identify)**
+**Endpoint:**
+```
+GET /identify
+```
+**Description:**
+- Retrieves all stored contacts from the database.
+
