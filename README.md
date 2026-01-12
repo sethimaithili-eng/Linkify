@@ -20,11 +20,11 @@ git clone https://github.com/sethimaithili-eng/Linkify.git
 cd Linkify
 
 2. Install dependencies
-```bash
+bash
 npm install
 
 3. Create a `.env` file in the root directory and configure the environment variables
-```env
+env
 MONGO_URI=your_mongodb_connection_string
 PORT=10000
 
