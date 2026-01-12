@@ -14,7 +14,16 @@ This backend API is developed using Node.js and Express.js, with MongoDB as the 
 - Node.js installed (v14+ recommended)
 - MongoDB Atlas or a local MongoDB instance
 # Installation
-1.Clone the repository
+1. Clone the repository
 ```bash
 git clone https://github.com/sethimaithili-eng/Linkify.git
 cd Linkify
+2. Install dependencies
+```bash
+npm install
+3. Create a `.env` file in the root directory and configure the environment variables
+```env
+MONGO_URI=your_mongodb_connection_string
+PORT=10000
+
+
