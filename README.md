@@ -86,12 +86,7 @@ GET /identify
     "__v": 0
   }
 ```
-## Deployment
-The API is deployed on **Render** and can be accessed at:
 
-```text
-https://linkify-api.onrender.com
-```
 ## Testing the API
 You can use **Postman** or **cURL** to test the endpoints.
 
